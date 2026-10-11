@@ -4,7 +4,7 @@ import { listOrders } from "./orders";
 describe("GET /orders", () => {
   it("returns every order", () => {
     const body = listOrders();
-    expect(body.items).toHaveLength(2);
-    expect(body.items[0].id).toBe("ord_1");
+    expect(body.results).toHaveLength(2);
+    expect(body.results[0].id).toBe("ord_1");
   });
 });
