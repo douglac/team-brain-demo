@@ -11,5 +11,5 @@ const USERS: User[] = [
 
 /** GET /users */
 export function listUsers() {
-  return { data: USERS };
+  return { members: USERS };
 }
