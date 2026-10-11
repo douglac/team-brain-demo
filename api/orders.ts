@@ -10,5 +10,5 @@ const ORDERS: Order[] = [
 
 /** GET /orders */
 export function listOrders() {
-  return { items: ORDERS };
+  return { results: ORDERS };
 }
