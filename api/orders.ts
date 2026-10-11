@@ -4,8 +4,8 @@ export interface Order {
 }
 
 const ORDERS: Order[] = [
-  { id: "ord_1", total: 42 },
-  { id: "ord_2", total: 7 },
+  { id: "ORD-0001", total: 42 },
+  { id: "ORD-0002", total: 7 },
 ];
 
 /** GET /orders */
