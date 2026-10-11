@@ -3,9 +3,9 @@
 `GET /users` returns the members of the workspace.
 
 ```json
-{ "list": [{ "id": "usr_1", "name": "Ada" }] }
+{ "members": [{ "id": "usr_1", "name": "Ada" }] }
 ```
 
 | Field | Type | Description |
 |---|---|---|
-| `list` | `User[]` | Workspace members. |
+| `members` | `User[]` | Workspace members. |
